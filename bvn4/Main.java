@@ -17,9 +17,12 @@ public class Main {
             choice = scan.nextLine();
         }
         System.out.println("Tong cac so n vua nhap = " + n);
+        //Bai 1 Cach 2
         whileDo_Loop();
+        //Bai 2
         studentInfo_Print();
     }
+    
     public static void whileDo_Loop() {
         n=0;
         do {
@@ -30,6 +33,7 @@ public class Main {
         }while (choice.equalsIgnoreCase("y"));
             System.out.println("Tong cac so n vua nhap lan 2 = "+ n);
         }
+    
         public static void studentInfo_Print() {
         do {
             System.out.print("Nhap ten: ");
